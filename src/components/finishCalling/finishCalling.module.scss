@@ -1,0 +1,45 @@
+.finishCalling {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  font-size: 35px;
+  color: #000000;
+  /* background: linear-gradient(to right, #ffc40066, #00000052) */
+  padding: 5px 0 10px 13px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.butCalling {
+  width: 80%;
+  height: auto;
+  border: none;
+  background: linear-gradient(90deg, #f7ebe1, #fff7a5);
+  color: #9e4848;
+  font-size: 37px;
+  margin: 0;
+  padding: 0;
+  border-radius: 38px;
+  bottom: 20px;
+  left: 10px;
+  box-shadow: 0px 4px 0px 0px rgb(215 173 25);
+  animation: butAnimation 1.2s infinite;
+}
+
+@keyframes butAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}

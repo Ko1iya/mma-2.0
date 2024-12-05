@@ -1,0 +1,38 @@
+.butBranche {
+  background: linear-gradient(to right, #ffc40066, #00000052);
+  color: #000000;
+  font-size: 1.3em;
+  border: 1px solid rgb(255 230 124);
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  width: 90%;
+  height: auto;
+  animation-name: butAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes butAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

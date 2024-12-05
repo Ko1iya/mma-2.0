@@ -1,0 +1,89 @@
+.containerBranches {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /* background-image: url("../../img/fonKraska.jpg");
+  background-size: 800px 1484px;
+  background-position: top;
+  background-repeat: repeat-y; */
+  overflow: hidden;
+  /* background-image: linear-gradient(221deg, #3f3507, #c49804); */
+  background: white;
+}
+
+.containerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  background: linear-gradient(to right, #ffc4005e, #ffe40000);
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 9px 0px rgb(0 0 0);
+  max-width: 520px;
+  width: 100%;
+}
+
+/* Для того чтобы компенсировать gap 14px в .containerButton  */
+.containerButton > div:first-child {
+  margin-top: -14px;
+}
+
+.branches {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 100px;
+  max-width: 100vw;
+}
+
+.titleBranches {
+  width: 100%;
+  font-size: 1.6em;
+  /* color: #eeeeee; */
+  color: black;
+  background: linear-gradient(to right, #ffc40066, #00000052);
+  padding: 5px 0 10px 13px;
+  margin: 0;
+  font-weight: 100;
+}
+
+.img {
+  width: 200px;
+  height: auto;
+}
+
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 1.2s;
+}
+.delay3 {
+  animation-delay: 2.4s;
+}
+.delay4 {
+  animation-delay: 3.6s;
+}
+.delay5 {
+  animation-delay: 4.8s;
+}
+
+/* @media screen and (min-width: 800px) {
+  .containerBranches {
+    background-size: 1700px 3153px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .containerBranches {
+    background-size: 3400px 6306px;
+  }
+} */

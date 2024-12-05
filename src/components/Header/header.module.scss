@@ -1,0 +1,38 @@
+.header {
+  height: 250px;
+  width: 100%;
+  position: fixed;
+  padding: 10px 10px 0 10px;
+  z-index: 9998;
+  display: flex;
+  justify-content: center;
+}
+
+.containerHeader {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 706px;
+}
+
+.hamburger {
+  width: 66px;
+  height: auto;
+
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
+}
+
+.hamburgerImg {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}

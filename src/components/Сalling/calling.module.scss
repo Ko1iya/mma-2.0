@@ -1,0 +1,57 @@
+.calling {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.604);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.callingContainer {
+  width: 314px;
+  height: 142px;
+  background: rgb(47, 47, 47);
+  box-shadow: 0px 0px 8px 0px rgba(247, 235, 192, 0.66);
+  border-radius: 13px;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.callingBut {
+  background: rgb(255 219 0);
+  color: #000000;
+  font-size: 1.3em;
+  border: 1px solid rgb(255 252 124);
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  width: 44%;
+  height: 49px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.title {
+  padding: 10px 0 2px 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.3em;
+}

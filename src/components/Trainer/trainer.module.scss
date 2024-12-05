@@ -1,0 +1,35 @@
+.trainer {
+  display: flex;
+  background: linear-gradient(to right, #ffc4005e, #ffe40000);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 49%;
+  height: auto;
+  padding-top: 5px;
+  margin-top: auto;
+}
+
+.decorLine {
+  width: 100%;
+  height: 2px;
+  background: #caae00;
+}
+
+.text {
+  width: 49%;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  color: #000000cc;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .text {
+    font-size: 30px;
+  }
+}

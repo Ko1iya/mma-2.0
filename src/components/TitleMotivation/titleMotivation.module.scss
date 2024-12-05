@@ -1,0 +1,46 @@
+.titleMotivation {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.titleMotivationEl {
+  font-size: 55px;
+  font-weight: 900;
+  margin: -5px 0px;
+  color: #ffee9c;
+  animation: dotAnimation 9s infinite;
+}
+
+@keyframes dotAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    background: linear-gradient(to right, #b80000, #7e5700);
+    background-clip: text;
+    color: transparent;
+    transform: translateY(0);
+  }
+  50% {
+    color: #ffee9c;
+
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.titleMotivationEl:nth-child(2) {
+  animation-delay: 2.8s;
+}
+.titleMotivationEl:nth-child(3) {
+  animation-delay: 5.8s;
+}
